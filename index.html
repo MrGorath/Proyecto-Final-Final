@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Persecution</title>
+    <link rel="stylesheet" href="./estilo.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="score"></div>
+        <canvas id="game" width="375" height="375"></canvas>
+        <div id="introduction">Manten el mouse para crear tablones para cruzar de edificio en edificio</div>
+        <div id="perfect">PUNTOS DOBLES</div>
+        <button id="restart">REINICIAR</button>
+    </div>
+
+    <button id="inicio" onclick="window.location.assign('inicio.html')">INICIO</button>
+
+    <audio id="caida" src="Efecto de sonido caida.mp3"></audio>
+    <audio id="madera" src="Efecto de sonido madera.mp3"></audio>
+    <audio id="punto" src="Efecto de sonido doble punto.mp3"></audio>
+
+    <script src="./juego.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>The Persecution</title>
+  <style>
+    body {
+        background-color: #000000;
+        font-family: sans-serif;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 72px;
+        color: white;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-shadow: 2px 2px 4px #888888;
+      }
+
+      p {
+        font-size: 24px;
+        margin-bottom: 50px;
+        color: white;
+        text-shadow: 2px 2px 4px #888888;
+      }
+
+      .game-screen {
+        background-color: #FFC000;
+        width: 800px;
+        height: 200px;
+        margin: 50px auto;
+        box-shadow: 2px 2px 4px #888888;
+        border-radius: 4px;
+        overflow: hidden;
+      }
+  </style>
+</head>
+
+<body>
+  <h1>The Persecution</h1>
+
+  <div class="game-screen">
+    <p>Bienvenido a The Persecution, eres un ladrón y te han descubierto. Para huir te has subido a lo alto de un
+      edificio. Tu objetivo es cruzar de edificio en edificio para obtener el mayor puntaje posible.</p>
+    <button id="comenzar">Comenzar </button>
+  </div>
+  <script>
+    document.getElementById("comenzar").addEventListener("click", function () {
+      window.location.href = "./index.html";
+    });
+  </script>
+</body>
+
+</html>
